@@ -10,6 +10,7 @@
       "messagePattern": "[$J] $M"
     },
   "husky": {
+    
     "hooks": {
       "pre-commit": "npm test"
     }
