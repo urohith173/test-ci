@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/urohith173/test-ci#readme",
   "devDependencies": {
-    "husky": "^8.0.2"
+    "husky": "^8.0.2",
+    "jira-prepare-commit-msg": "^1.7.1"
   }
 }
