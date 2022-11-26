@@ -9,7 +9,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "hello"
+      "pre-commit": "npm test"
     }
   },
   "repository": {
