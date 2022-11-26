@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
     "jira-prepare-commit-msg": {
-      "messagePattern": "[$J] $M"
+      "messagePattern": "$J $M"
     },
   "husky": {
 
