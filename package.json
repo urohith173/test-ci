@@ -10,11 +10,12 @@
       "messagePattern": "[$J] $M"
     },
   "husky": {
-    
+
     "hooks": {
       "pre-commit": "npm test"
     }
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/urohith173/test-ci.git"
