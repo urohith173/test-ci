@@ -1,0 +1,35 @@
+{
+  "name": "test-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+    "jira-prepare-commit-msg": {
+      "messagePattern": "$J $M",
+      "ignoreBranchesMissingTickets": false
+    },
+  "husky": {
+
+    "hooks": {
+      "pre-commit": "npm test"
+
+    }
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urohith173/test-ci.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urohith173/test-ci/issues"
+  },
+  "homepage": "https://github.com/urohith173/test-ci#readme",
+  "devDependencies": {
+    "husky": "^8.0.2",
+    "jira-prepare-commit-msg": "^1.7.1"
+  }
+}
